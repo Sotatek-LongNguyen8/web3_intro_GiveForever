@@ -10,7 +10,7 @@ contract LidoMock is ERC20 {
     }
 
     function submit(address _referral) external payable returns (uint){ 
-      _mint(msg.sender, msg.value + 2e16 );
+      _mint(msg.sender, msg.value + 2e18 );
     }
         
 } 
